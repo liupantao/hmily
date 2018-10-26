@@ -28,6 +28,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.math.BigDecimal;
 
 /**
+ *
+ *
  * AccountController.
  * @author xiaoyu
  */
@@ -53,6 +55,9 @@ public class AccountController {
         return accountService.findByUserId(userId).getBalance();
     }
 
+    public static void main(String[] args) {
+
+    }
 
 
 
